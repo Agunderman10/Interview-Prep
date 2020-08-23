@@ -32,20 +32,26 @@ public class ReverseInteger {
 			chars[i] = temp;
 			chars[length - 1 - i] = back;
 		}
+		
 		return Integer.parseInt(new String(chars));
 	}
 		
 	
 	public int reverseBruteForce(int x) {
 		char[] chars;
-
-		if(!isNegative(x)) {
-			chars = ("" + x).toCharArray();
-			return loopThroughCharArrayAndReverse(chars);
+		
+		try {
+			if(!isNegative(x)) {
+				chars = ("" + x).toCharArray();
+				return loopThroughCharArrayAndReverse(chars);
+			}
+			else {
+				chars = ("" + makePositive(x)).toCharArray();
+				return loopThroughCharArrayAndReverse(chars) * -1;
+			}
 		}
-		else {
-			chars = ("" + makePositive(x)).toCharArray();
-			return loopThroughCharArrayAndReverse(chars) * -1;
+		catch(Exception e) {
+			return 0;
 		}
 	}
 }

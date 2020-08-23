@@ -1,6 +1,9 @@
 
+/*
+ * Brute force solution
+ */
 public class ReverseInteger {
-	public int reverse(int x) { // x = 3245
+	public int reverseBruteForce(int x) { // x = 3245
 		char[] chars = ("" + x).toCharArray();
 		int length = chars.length;
 		char temp;
@@ -17,10 +20,3 @@ public class ReverseInteger {
 		return Integer.parseInt(new String(chars));
 	}
 }
-/*
- * first iteration: 3 to switch with 5
- * second iteration: 2 to switch with 4
- * 
- * 
- * 
- */ 

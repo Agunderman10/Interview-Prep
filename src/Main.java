@@ -5,7 +5,7 @@ public class Main {
 		ReverseInteger reverseInteger = new ReverseInteger();
 		int num = 3245;
 		System.out.println(num);
-		System.out.println(reverseInteger.reverse(num));
+		System.out.println(reverseInteger.reverseBruteForce(num));
 	}
 
 }

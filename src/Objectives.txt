@@ -1,0 +1,10 @@
+1) Trees (especially BST)
+2) Big O Notation
+3) Hash Tables
+4) Object Oriented Design/Systems Design
+5) Algorithms: Breadth First Search/Depth First Search, Binary Search, Merge Sort, Quick Sort,
+6) Arrays
+7) Recursion
+8) Linked Lists (Singly and Doubly)
+9) Stacks/Queues
+10) Bit Manipulation

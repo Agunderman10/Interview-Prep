@@ -1,9 +1,10 @@
 
-/*
- * Brute force solution
- */
+
 public class ReverseInteger {
 	
+	/*
+	 * Brute Force Solution
+	 */
 	private boolean isNegative(int num) {
 		if(num < 0) {
 			return true;
@@ -53,5 +54,13 @@ public class ReverseInteger {
 		catch(Exception e) {
 			return 0;
 		}
+	}
+	
+	/*
+	 * Optimized Solution
+	 */
+	
+	public int reverseOptimized(int x) {
+		return 0;
 	}
 }

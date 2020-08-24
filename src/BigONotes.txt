@@ -1,4 +1,10 @@
 1) Different steps get added
 2) Drop constants
 3) Different inputs have different variables that represent them
-4) Drop non-dominate terms
+4) Drop non-dominate terms (Smaller terms don't matter)
+
+Big O Shorthands
+1) Arithmetic operations are constant
+2) Variable assignment is constant
+3) Accessing elements in an array (by index) or object (by key) is constant
+4) In a loop, the complexity is the length of the loop times the complexity of whatever happens in the loop

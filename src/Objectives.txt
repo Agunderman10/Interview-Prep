@@ -2,9 +2,21 @@
 2) Big O Notation
 3) Hash Tables
 4) Object Oriented Design/Systems Design
-5) Algorithms: Breadth First Search/Depth First Search, Binary Search, Merge Sort, Quick Sort,
+5) Algorithms: Breadth First Search/Depth First Search, Binary Search log(n) time complexity, Merge Sort, 
+Quick Sort,
 6) Arrays
 7) Recursion
 8) Linked Lists (Singly and Doubly)
 9) Stacks/Queues
 10) Bit Manipulation
+11) Memoization
+
+
+- Matching Parenthesis(Brackets) Question. Is correct? Or next bracket you have to add. Can use a stack. If stack
+isn't empty you know not all of the brackets were matched.
+- Hash Tables are good for caching
+- Be able to manipulate multiple pointers at once
+- Reversing a Linked List
+- Sorting Fundamentals (Run times) Big O is nlog(n) for a lot of sorting algorithms
+- Construct custom data structure
+- Binary search log(n) time complexity

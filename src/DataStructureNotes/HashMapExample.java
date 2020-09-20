@@ -2,6 +2,10 @@ package DataStructureNotes;
 
 import java.util.HashMap;
 
+/*
+ * Hash Map Big O
+ * Search: O(n)
+ */
 public class HashMapExample {
 
 	public static void main(String[] args) {
